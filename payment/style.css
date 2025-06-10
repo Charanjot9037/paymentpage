@@ -1,0 +1,155 @@
+body{
+background-color: rgb(16, 61, 50);
+
+}
+#hd{
+    text-align: center;
+color: white;
+    /* font-size: 25px; */
+    font-family: "Edu VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 30;
+  font-style: normal;
+
+}
+.main{
+      margin-left:12%;
+      margin-right: 2%;
+
+   border-radius: 10px 10px 10px 10px;
+   display: flex;
+    background-color: aliceblue;
+  width: 75%;
+  height: 79%;
+  position: absolute;
+  bottom: 1px;
+}
+.left{
+   width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+
+width: 50%;
+margin-right: 2%;
+    color: black;
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  padding-top: 20px;
+  font-weight: bolder;
+  padding-left: 20px;
+  font-size: 15px;
+
+
+  font-variation-settings:
+    "wdth" 100;
+overflow-Y: scroll;
+overflow-x: hidden;
+}
+.part{
+ padding-bottom: 10px;
+    display:flex;
+    padding-top: 5px;
+    color: rgb(82, 79, 79);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 2px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px ;
+    width: 220PX;
+padding: 5px 5px 5px 5px;
+}
+input:hover{
+    border: 2px solid rgb(16, 61, 50);
+}
+.img{
+    width: 60px;
+    height: 30px;
+    padding: 5px 2px 5px 2px;
+    margin: 9px 3px 3px 3px;
+    border: 1px solid gray;
+    border-radius:5px 5px 5px 5px;
+
+}
+.btn{
+    text-align: center;
+    height: 26px;
+    width: 440px;
+    background-color:  rgb(16, 61, 50);
+    padding: 15px 5px 5px 5px;
+    color: white;
+    border: rgb(194, 186, 186) 1px solid;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.lower{
+    
+    height: 200PX;
+    font-size: 11px;
+    padding-top: 15px;
+
+    color: rgb(82, 79, 79);
+}
+
+
+
+.ls{
+    width:83%;
+    
+    margin-bottom: 10px;
+   
+
+
+       margin-top: 2px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px ;
+
+padding: 5px 5px 5px 5px; 
+
+}
+
+@media screen and (max-width:1049px) {
+  .part{
+    display: flex;
+    flex-direction: column;
+  }
+    input{
+    margin-top: 2px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px ;
+    width: 90%;
+padding: 5px 5px 5px 5px;
+}
+.ls{
+    
+      margin-top: 2px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px ;
+    width: 90%;
+padding: 5px 5px 5px 5px;
+
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+   
+}
+.btn{
+    width: 90%;
+}
+}
