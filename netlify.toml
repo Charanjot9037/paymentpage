@@ -1,4 +1,4 @@
-  publish = "payment"
+
 [[redirects]]
 from="/*
 to ="/index.html"
